@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.pc.codeditor.Codeditor">
+    <item
+        android:id="@+id/action_save"
+        android:orderInCategory="100"
+        android:title="save"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:title="open_file"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_commit"
+        android:orderInCategory="100"
+        android:title="commit"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/chance_language"
+        android:orderInCategory="100"
+        android:title="choose_language"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_run"
+        android:title="action_run"
+        android:orderInCategory="80"
+        android:icon="@android:drawable/ic_media_play"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/action_up"
+        android:title="action_up"
+        android:orderInCategory="80"
+        android:icon="@mipmap/ic_action_undo"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_down"
+        android:title="action_down"
+        android:orderInCategory="80"
+        android:icon="@mipmap/ic_action_redo"
+        app:showAsAction="always" />
+
+</menu>
